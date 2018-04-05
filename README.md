@@ -1,0 +1,2 @@
+# mp10_phone_book
+Mp10 - Phone Book (Person and Address) [oneToOne] The PhoneBook app will have an endpoint /contacts where you can post new contacts. A get request to /contacts shows all of them. Internally, the app will connect to a Sql database like MySQL and have one entity called Person and another one called Address. They are both connected with a one to one relationship. The Address will be saved in the database as a cascade operation from the Person repository.
